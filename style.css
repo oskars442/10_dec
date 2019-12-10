@@ -1,0 +1,188 @@
+#cta {
+    margin-top: 2vh;
+    background-image: url("./img/cta.jpg");
+    background-color: #cccccc;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Quicksand',
+        sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    color: black;
+    color: rgb(207, 194, 194);
+}
+
+#textcta {
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 5vh;
+}
+
+#cta h1 {
+    font-size: 60px;
+}
+
+#cta p {
+    font-size: 20px;
+}
+
+#apmekle {
+    background-color: #bada55;
+
+
+}
+
+#apmekle h1 {
+    text-align: center;
+    padding: 3vh;
+}
+
+h5 {
+    text-align: center;
+    margin: 1vh;
+}
+
+#apmekle img {
+    max-width: 350px;
+    height: 250px;
+}
+
+#apmekle a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(5, 24, 41);
+}
+
+/*index end*/
+
+#about {
+    background-color: #5ac18e;
+    font-family: 'Quicksand',
+        sans-serif;
+    color: rgb(56, 56, 56);
+    padding-bottom: 5vh;
+}
+
+#about h1 {
+    padding: 3vh;
+    font-size: 80px;
+}
+
+#about p {
+    margin-top: 1vh;
+}
+
+#imgabout {
+    max-width: 100%;
+    height: 300px;
+}
+
+#aktivi {
+    background-color: #daa520;
+}
+
+#aktivi h2 {
+    text-align: center;
+    padding: 3vh;
+}
+
+h6 {
+    text-align: center;
+    padding: 1vh;
+}
+
+#imgactiv {
+    max-width: 650px;
+    height: 250px;
+}
+
+#aktivi p {
+    padding: 1vh;
+}
+
+/*about end*/
+#contacts {
+    background-image: url("./img/contact.jpg");
+    background-color: #856060;
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Quicksand',
+        sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(207, 194, 194);
+}
+
+#bgactiv {
+    background-color: rgba(77, 80, 85, 0.8);
+    padding: 5vh;
+}
+
+#contacts h4 {
+    margin: 5vh;
+    font-size: 50px;
+}
+
+#contactimg {
+    max-width: 400px;
+}
+
+/*contact end*/
+
+.center {
+    text-align: center;
+    margin: 3vh;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #8a2be2;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #bf03f8;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}

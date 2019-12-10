@@ -9,8 +9,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="/style.css">
-    <title>Skrunda - Contacts</title>
+<link rel="stylesheet" href="/style.css">
+    <title>Skrunda - Login</title>
 </head>
 
 <body>
@@ -29,35 +29,36 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/about.html">about</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Contacts</a>
-                </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/login.html">Login</a>
+                    <a class="nav-link" href="/contacts.html">Contacts</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Login</a>
                 </li>
             </ul>
         </div>
-
     </nav>
-    <section id="contacts">
-        <div class="container">
-            <div class="row" id="bgactiv">
-                <div class="col-md-6">
-                    <h4>Kontakti</h4>
-                    <ul>
-                        <li>Tālrunis- +37121234567</li>
-                        <li>Adrewe- Skrundas centrs</li>
-                        <li>e-pasts- oskars@ventbridge.lv</li>
-                        <li>Fakss- +12321161261</li>
-                        <li>AS "Unstopoble"</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <img id="contactimg" src="/img/contacts.jpg" alt="karte">
-                </div>
-            </div>
-        </div>
-    </section>
+    <!--//NAV-->
+<form action="action_page.php" method="post">
+    <h1 class="center">Ielogojies</h1>
+    <div class="container">
+        <label for="uname"><b>Lietotājvārds</b></label>
+        <input type="text" placeholder="Ievadi Lietotājvārdu" name="uname" required>
+
+        <label for="psw"><b>Parole</b></label>
+        <input type="password" placeholder="Ievadi paroli" name="psw" required>
+
+        <button type="submit">Ielogoties</button>
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Atcerēties mani!
+        </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Atcelt</button>
+        <span class="psw">Aizmirsi <a href="#">paroli?</a></span>
+    </div>
+</form>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
