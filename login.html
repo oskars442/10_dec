@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css">
     <title>Skrunda - Login</title>
 </head>
 
@@ -39,26 +39,27 @@
         </div>
     </nav>
     <!--//NAV-->
-<form action="action_page.php" method="post">
-    <h1 class="center">Ielogojies</h1>
-    <div class="container">
-        <label for="uname"><b>Lietotājvārds</b></label>
-        <input type="text" placeholder="Ievadi Lietotājvārdu" name="uname" required>
+    <form action="action_page.php" method="post">
+        <h1 class="center">Ielogojies</h1>
+        <div class="container">
+            <label for="uname"><b>Lietotājvārds</b></label>
+            <input type="text" placeholder="Ievadi Lietotājvārdu" name="uname" required>
 
-        <label for="psw"><b>Parole</b></label>
-        <input type="password" placeholder="Ievadi paroli" name="psw" required>
+            <label for="psw"><b>Parole</b></label>
+            <input type="password" placeholder="Ievadi paroli" name="psw" required>
 
-        <button type="submit">Ielogoties</button>
-        <label>
-            <input type="checkbox" checked="checked" name="remember"> Atcerēties mani!
-        </label>
-    </div>
+            <button type="submit">Ielogoties</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Atcerēties mani!
+            </label>
+        </div>
 
-    <div class="container" style="background-color:#f1f1f1">
-        <button type="button" class="cancelbtn">Atcelt</button>
-        <span class="psw">Aizmirsi <a href="#">paroli?</a></span>
-    </div>
-</form>
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Atcelt</button>
+            <span class="csw">Nēesi vēl <a href="/register.html">Reģistrējies</a></span>
+            <span class="psw">Aizmirsi <a href="#">paroli?</a></span>
+        </div>
+    </form>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

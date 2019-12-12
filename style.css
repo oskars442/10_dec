@@ -1,5 +1,4 @@
 #cta {
-    margin-top: 2vh;
     background-image: url("./img/cta.jpg");
     background-color: #cccccc;
     height: 100vh;
@@ -182,7 +181,81 @@ button:hover {
     padding: 16px;
 }
 
+
 span.psw {
     float: right;
     padding-top: 16px;
+    padding-right: 350px;
+}
+
+span.csw {
+    float: right;
+    padding-top: 16px;
+    padding-left: 25px;
+}
+
+/*Login end*/
+
+    {
+    box-sizing: border-box
+}
+
+.container {
+    padding: 16px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+input[type=age],
+input[type=age] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+
+.registerbtn {
+    background-color: #bf03f8;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+
+a {
+    color: dodgerblue;
+}
+
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.h1c {
+    text-align: center
 }
